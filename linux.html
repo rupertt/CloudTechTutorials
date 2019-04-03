@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- This website template was created by: Rupert Turnbull -->
+<!-- This website was created by: Rupert Turnbull -->
 <html lang="en">
 <head>
 	<link rel="stylesheet" href="css/styles.css">
@@ -7,99 +7,68 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-</head> 
-<body>
-
-	<div id="container">
-
-	<!-- Use the header area for the website name or logo -->
-	<header>
-		
-	</header>
-
-	
-	<!-- Use the nav area to add hyperlinks to other pages within the website -->
-	<div class="navbar">
-	  <a href="index.html">Home</a>
-	  <a href="about.html">About</a>
-	  <div class="dropdown">
-		<button class="dropbtn">Web Hosting 
-		  <i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-		  <a href="azure.html">Azure</a>
-		  <a href="aws.html">AWS</a>
-		  <a href="linux.html">Linux Based Hosting</a>
+</head>
+	<body>
+		<!-- Banner -->
+		<div id="banner" class="desktop">
+			<a href="index.html"><img src="images/cloudbanner.jpg" alt="Cloud Tech Logo"></a>
 		</div>
-	  </div> 
-	  <div class="dropdown">
-		<button class="dropbtn">Containers
-		  <i class="fa fa-caret-down"></i>
-		</button>
-		<div class="dropdown-content">
-		  <a href="docker.html">Docker</a>
-		  <a href="kubernetes.html">Kubernetes</a>
+
+		<div class="navbar">
+		  <a href="index.html">Home</a>
+		  <a href="about.html">About</a>
+		  <div class="dropdown">
+				<button class="dropbtn">Web Hosting
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="azure.html">Azure</a>
+				  <a href="aws.html">AWS</a>
+				  <a href="linux.html">Linux Based Hosting</a>
+					<a href="hostingcomparisons.html">Compare Hosting</a>
+				</div>
+		  </div>
+		  <div class="dropdown">
+				<button class="dropbtn">Containers
+				  <i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+				  <a href="docker.html">Docker</a>
+				  <a href="kubernetes.html">Kubernetes</a>
+				</div>
+			</div>
+			<a href="automation.html">Automation</a>
+			<a href="contact.html">Contact Me</a>
 		</div>
-		</div>
-		<a href="automation.html">Automation</a>
-		<a href="contact.html">Contact Me</a>
-	</div> 
-	  
-	</div>
-	
-	
-	<!-- Home Page Banner -->
-	<div id="banner" class="desktop">
-		<a href="index.html"><img src="images/cloudbanner.jpg" alt="Cloud Tech Logo"></a>
-	</div>
-
-	<!-- Use the main area to add the main content of the webpage -->
-	<main>
-	<h1><a href="https://httpd.apache.org/"><img src="images/apache.png" alt="Apache Logo" style="width:50%"></a></h1>
-	
-	<div>
-		<p>We can use Apache running on a linux VM to host websites locally.</p>
-		<p>Apache supports a variety of features, many implemented as compiled modules which extend the core functionality. These can range from authentication schemes to supporting server-side programming languages such as Perl, Python, Tcl and PHP.</p>
-		<p>Ubuntu
-		
-		
-		<h2>Tutorials</h2>
-		
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/IT1X42D1KeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<br>
-		<br>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/r4YIdn2eTm4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		
-		<h2>Get Started</h2>
-		<h4><a href="https://portal.aws.amazon.com/billing/signup?nc2=h_ct&src=default&redirect_url=https%3A%2F%2Faws.amazon.com%2Fregistration-confirmation#/start">Sign up for a free account.</a><h4>
-		<br>
-		<h4><a href="https://aws.amazon.com/pricing/?nc2=h_ql_pr">Pricing.</a><h4>
-		<br>
-		<h4><a href="https://aws.amazon.com/websites/?nc2=h_m2">Web Hosting.</a><h4>
-		
-	</div>
+		<!-- Use the main area to add the main content of the webpage -->
+		<main>
+			<h1><a href="https://httpd.apache.org/" target="_blank"><img src="images/apache.png" alt="Apache Logo" style="width:400px"></a></h1>
+			<div class="tabbed">
+				We can use Apache running on a linux VM to host websites locally.
+				Apache supports a variety of features, many implemented as compiled modules which extend the core functionality. These can range from authentication schemes to supporting server-side programming languages such as Perl, Python, Tcl and PHP.
+				We can then install Ubuntu (which is a version of Linux) on a virtual machine and set it up to host our website.
 
 
-	
-	<div class="mobile">
-	
-		
-	
-	</div>
-	
-	<div class= "desktop">
-		
-	</div>
-	
-	</main>
-	
-	<!-- Use the footer area to add webpage footer content -->
-	<footer>
-		&copy; Copyright 2019. All Rights Reserved. <br>
-		<a href="mailto:rupertjturnbull@gmail.com">Email Me</a>
+				<h2>Tutorials</h2>
+
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/-q8Jj4aAWYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<br>
+				<br>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/TrLAx27Npns" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+				<h2>Get Started</h2>
+				<h4><a href="https://www.ubuntu.com/download/desktop" target="_blank">Download Ubuntu.</a><h4>
+				<br>
+				<h4><a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Download VirtualBox</a><h4>
+				<br>
+				<h4><a href="https://www.digitalocean.com/community/tutorials/how-to-install-the-apache-web-server-on-ubuntu-18-04-quickstart" target="_blank">Install Apache</a><h4>
+			</div>
+		</main>
+
+		<!-- Use the footer area to add webpage footer content -->
+		<footer>
+			&copy; Copyright 2019. All Rights Reserved. <br>
+			<a href="mailto:rupertjturnbull@gmail.com">Email Me</a>
 		</footer>
-		
-	</div>
-	
-</body>
+	</body>
 </html>
